@@ -506,6 +506,21 @@ footer div ul li{
         grid-row-end: 5;
         overflow: hidden;
     }
+
+    .contacto-grid3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        height: 80vh;
+        width: 80%;
+        align-self: center;
+        justify-self: center;
+        margin-top: 100px;
+    }
+
+    .promo-img img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media(max-width:1360px){
@@ -563,6 +578,11 @@ footer div ul li{
         width: 100%;
     }
 
+    .video-fabrica{
+        width: 1000px;
+        height: 500px;
+    }
+
     .total-main section div h3{
         font-size: 90px;
     }
@@ -597,5 +617,106 @@ footer div ul li{
     }
     .item4-sabores img{
         width: 100%;
+    }
+
+    .ubicacion-grid {
+        display: grid;
+        grid-template-columns: 650px 350px;
+        grid-template-rows: 100vh;
+        align-items: center;
+        gap: 0%;
+    }
+
+    .ubicacion-galeria-grid{
+        grid-template-columns: repeat(1,300px);
+        grid-template-rows: repeat(2,350px);
+        padding-left: 0px;
+        gap: 2px;
+    }
+
+    .galeria-item1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: aqua;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .galeria-item1 img{
+        width: 100%;
+    }
+    .galeria-item2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: blue;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .galeria-item2 img{
+        width: 100%;
+    }
+
+    .galeria-item3{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        overflow: hidden;
+        display: none;
+    }
+    .galeria-item4{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        overflow: hidden;
+        display: none;
+    }
+    .galeria-item5{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        overflow: hidden;
+        display: none;
+    }
+    .galeria-item6{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        overflow: hidden;
+        display: none;
+    }
+
+    .contacto-img {
+        display: none;
+    }
+
+    .contacto-grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 100vh;
+    }
+
+    .contacto-grid3 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        width: 80%;
+        align-self: center;
+        justify-self: center;
+        margin-top: 0px;
+    }
+
+    .promo-img img{
+        width: 100%;
+        height: 80%;
     }
 }
