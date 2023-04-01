@@ -306,6 +306,14 @@ nav ul{
     text-align: center;
 }
 
+.promos-destacadas{
+    font-family: be vietnam pro;
+    color: white;
+    font-size: 6.4rem;
+    font-style: italic;
+    text-align: center;
+}
+
 .form-flex{
     display: flex;
     flex-direction: column;
@@ -358,7 +366,7 @@ nav ul{
     font-family: be vietnam pro;
     font-size: 12.8rem;
     color: #A2CFE4;
-    font-style: var(900);
+    font-weight: 900;
 }
 
 .sabores-destacados{
@@ -746,6 +754,11 @@ footer div ul li{
         padding-left: 1rem;
     }
 
+    nav ul {
+    gap: 2rem;
+    margin-left: -20px;
+    }
+
     .item3 {
         padding-left: 2.5rem;
     }
@@ -757,4 +770,98 @@ footer div ul li{
     .parrafo-main {
         font-size: 1.6rem;
     }
+
+    .video-fabrica {
+    width: 70rem;
+    }
+
+    .sabores-grid {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(4,25vh);
+    grid-template-areas:
+        "item1-sabores ."
+        "item3-sabores item5-sabores"
+        "item2-sabores item5-sabores"
+        "item4-sabores .";
+    }
+
+    .item1-sabores {
+        width: 210px;
+        height: 190px;
+    }
+
+    .item1-sabores img {
+        width: 195px;
+        height: 175px;
+    }
+
+    .item2-sabores {
+        width: 210px;
+        height: 190px;
+    }
+
+    .item2-sabores img {
+        width: 195px;
+        height: 175px;
+    }
+
+    .item3-sabores {
+        width: 210px;
+        height: 190px;
+    }
+
+    .item3-sabores img {
+        width: 195px;
+        height: 175px;
+    }
+
+    .item4-sabores {
+        width: 210px;
+        height: 190px;
+    }
+
+    .item4-sabores img {
+        width: 195px;
+        height: 175px;
+    }
+
+
+    .ubicacion-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50vh 50vh;
+        align-items: center;
+        gap: 0%;
+    }
+
+    .ubicacion-info {
+        margin-top: -80px;
+    }
+
+    .ubicacion-info iframe {
+        height: 26rem;
+        width: 60rem;
+    }
+
+    .container-carrousel{
+        height: 50rem;
+        width: 95%;
+        padding: 50px 120px 150px 120px;
+        margin-top: -150px;
+    }
+
+    .contacto-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .center-contacto {
+        height: 90vh;
+        margin-top: -2rem;
+    }
+
+    .promos-destacadas{
+        font-size: 5rem;
+    }
+
 }
