@@ -149,10 +149,10 @@ nav ul{
 
 .ubicacion-grid{
     display: grid;
-    grid-template-columns: 700px 1000px;
+    grid-template-columns: 50% 40%;
     grid-template-rows: 100vh;
     align-items:center;
-    gap: 8%;
+    gap: 2%;
 }
 
 .ubicacion-info{
@@ -417,6 +417,11 @@ footer div ul{
     text-align: center;
 }
 
+.footer-copyright p{
+    margin-bottom: 0;
+}
+
+
 footer section ul li{
     font-family: be vietnam pro;
     list-style: none;
@@ -644,6 +649,11 @@ footer div ul li{
         gap: 0.2rem;
     }
 
+    .ubicacion-info iframe{
+        height: 40rem;
+        width: 40rem;
+    }
+
     .galeria-item1{
         grid-column-start: 1;
         grid-column-end: 2;
@@ -728,5 +738,23 @@ footer div ul li{
     .promo-img img{
         width: 100%;
         height: 80%;
+    }
+}
+
+@media(max-width:768px){
+    .contenedor-logo {
+        padding-left: 1rem;
+    }
+
+    .item3 {
+        padding-left: 2.5rem;
+    }
+
+    .total-main div h1 {
+        padding-bottom: 1rem;
+    }
+
+    .parrafo-main {
+        font-size: 1.6rem;
     }
 }
